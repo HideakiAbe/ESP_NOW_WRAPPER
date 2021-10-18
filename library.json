@@ -1,0 +1,31 @@
+{
+    "name": "ESP_NOW_WRAPPER",
+    "keywords": "esp_now,esp8266,esp32,",
+    "description": "simplifyed esp_now",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vintlabs/fauxmoESP"
+    },
+    "version": "3.4",
+    "license": "MIT",
+    "exclude": "tests",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"],
+    "authors": {
+        "name": "Hideaki Abe",
+        "email": "abe3@h3.dion.ne.jp",
+        "url": ""https://github.com/HideakiAbe"
+        "maintainer": true
+    },
+    "dependencies": [ 
+        {
+            "name": "esp_now",
+            "version": "0.1",
+            "platforms": "espressif esp32"
+        },
+
+    ],
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
